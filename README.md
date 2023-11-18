@@ -26,11 +26,11 @@
 ------
 # Deploy To Heroku
 
-[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbhiModszYT/StringHackbot)
+[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Killerboyxd/Shiv-Hackbot)
 
 ## Credits
 
-- 💖 [AbhiModszYT](https://t.me/AbhiModszYT_Return)
+- 💖 [AbhiModszYT](https://t.me/RONNY_KI_DUNIYA_Return)
 
 ------
 
